@@ -35,6 +35,14 @@
 	.politic p {
 		text-align: left;
 	}
+
+	.designerInner--align {
+		position: static;
+	}
+
+	.designerInner--align p {
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 924px) {
@@ -48,7 +56,7 @@
 	.company {
 		margin-top: 40px;
 	}
-	
+
 	.companyImg {
 		margin-top: 45px;
 	}
@@ -64,13 +72,17 @@
 	.signUp {
 		margin-top: 60px;
 	}
-	
+
 	.signUpBlok {
 		padding: 30px 40px;
 	}
 
 	.signUpForm {
 		margin-bottom: 0;
+	}
+
+	.allCollections {
+		height: 100px;
 	}
 
 	.footerInner {
