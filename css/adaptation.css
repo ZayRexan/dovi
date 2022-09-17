@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px) {
+	.signApFlexEnd {
+		justify-content: space-between;
+	}
+
+	.politic p {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 624px) {
+	.signUpBlok>p {
+		text-align: center;
+	}
+
+	.signApFlexEnd {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.signApFlexEnd>.button {
+		width: 100%;
+		max-width: 220px;
+		margin-bottom: 25px;
+	}
+
+	.politic p {
+		margin-right: 0;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.signUpBlok {
+		padding: 25px;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	.inputCalendarR,
+	.inputFlagR {
+		width: 100%;
+	}
+
+	.signApFlexEnd>.button {
+		max-width: 100%;
+	}
+}

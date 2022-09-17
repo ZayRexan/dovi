@@ -463,12 +463,12 @@ p {
 }
 
 .button {
-  width: 220px;
+  max-width: 280px;
   height: 50px;
   background-color: none;
-  border: 1px solid #ffffff;
+  padding: 16px 45px;
+  border: 1px solid #ffffffe7;
   text-align: center;
-  padding: 15px;
 }
 
 button {
@@ -480,8 +480,7 @@ button {
 }
 
 .politic {
-  width: 560px;
-  height: 50px;
+  max-width: 560px;
 }
 
 .politic p {
@@ -1802,7 +1801,7 @@ textarea {
   line-height: normal;
 }
 
-.centralOffice2 > .socIcon {
+.centralOffice2>.socIcon {
   width: 200px;
 }
 
@@ -1849,7 +1848,7 @@ textarea {
   left: 10px;
 }
 
-.inputFlagR > input {
+.inputFlagR>input {
   padding-left: 40px;
 }
 
@@ -1865,7 +1864,7 @@ textarea {
   left: 10px;
 }
 
-.inputCalendarR > input {
+.inputCalendarR>input {
   padding-left: 40px;
 }
 
@@ -1879,7 +1878,7 @@ textarea {
   left: 10px;
 }
 
-.inputEmailR > input {
+.inputEmailR>input {
   text-align: start;
   padding-left: 50px;
 }
