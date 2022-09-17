@@ -1,3 +1,32 @@
+@media screen and (max-width: 1210px) {
+	.news {
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 1184px) {
+	.footerInner {
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.footerInnerBlok,
+	.footerInnerBlok1,
+	.footerInnerBlok4 {
+		min-height: 200px;
+		padding: 0;
+		text-align: center;
+		border: none;
+	}
+}
+
+@media screen and (max-width: 1184px) {
+	.socIcon {
+		width: 100%;
+		justify-content: space-evenly;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.signApFlexEnd {
 		justify-content: space-between;
@@ -5,6 +34,60 @@
 
 	.politic p {
 		text-align: left;
+	}
+}
+
+@media screen and (max-width: 924px) {
+	.dovitaText {
+		justify-content: space-evenly;
+		gap: 40px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.company {
+		margin-top: 40px;
+	}
+	
+	.companyImg {
+		margin-top: 45px;
+	}
+
+	.histori {
+		margin-top: 60px;
+	}
+
+	.philosopyVertical {
+		height: 70px;
+	}
+
+	.signUp {
+		margin-top: 60px;
+	}
+	
+	.signUpBlok {
+		padding: 30px 40px;
+	}
+
+	.signUpForm {
+		margin-bottom: 0;
+	}
+
+	.footerInner {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footerInnerBlok4 {
+		max-width: 325px;
+	}
+
+	.footerFlex input {
+		width: 210px;
+	}
+
+	.footerButton {
+		width: 105px;
 	}
 }
 
@@ -30,6 +113,31 @@
 	}
 }
 
+@media screen and (max-width: 425px) {
+	.newsblok img {
+		max-width: 260px;
+	}
+
+	.newsblok h2 {
+		margin-bottom: 10px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.newsblok p {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.footerFlex input {
+		width: 175px;
+	}
+
+	.socIcon {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 375px) {
 	.signUpBlok {
 		padding: 25px;
@@ -46,5 +154,9 @@
 
 	.signApFlexEnd>.button {
 		max-width: 100%;
+	}
+
+	.footerInnerBlok4 {
+		max-width: 275px;
 	}
 }
